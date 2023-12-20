@@ -14,6 +14,8 @@ sudo systemctl start firewalld
 sudo systemctl enable firewalld
 sudo systemctl status firewalld
 ```
+firewall-cmd --list
+firewall-cmd --list-all
 
 ## Deploy and Configure Database
 
